@@ -9,7 +9,7 @@ import { WhatIDo } from './components/WhatIDo';
 import { CodeAndSocials } from './components/CodeAndSocials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import inshad from './assets/inshad.jpeg';
+import inshad from './assets/Inshad.jpeg';
 
 export const App: React.FC = () => {
   const userPhoto =  inshad; 
