@@ -5,7 +5,7 @@ import { CheckCircle2, User } from 'lucide-react';
 
 export const About: React.FC = () => {
   return (
-    <section id="about" className="relative py-28 bg-neutral-950 overflow-hidden">
+    <section id="about" className="relative py-16 sm:py-20 bg-neutral-950 overflow-hidden">
       {/* Background ambient glow effect */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/5 blur-[140px] rounded-full pointer-events-none" />
 
@@ -19,7 +19,7 @@ export const About: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="lg:col-span-6 flex flex-col p-8 sm:p-10 relative group"
+            className="lg:col-span-6 flex flex-col p-2 sm:p-8 lg:p-10 relative group"
           >
             {/* Top ambient highlight line on hover */}
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-500/0 to-transparent group-hover:via-emerald-400/50 transition-all duration-500" />
@@ -43,11 +43,10 @@ export const About: React.FC = () => {
           {/* Right Column: "What I Bring" Glass Card */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            whileHover={{ y: -4 }}
-            className="lg:col-span-6 group relative bg-gradient-to-b from-neutral-900/90 to-neutral-900/40 border border-neutral-800/90 rounded-3xl p-8 sm:p-10 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/5 hover:border-emerald-500/40 transition-all duration-300 backdrop-blur-sm flex flex-col justify-between overflow-hidden"
+            className="lg:col-span-6 group relative bg-gradient-to-b from-neutral-900/90 to-neutral-900/40 border border-neutral-800/90 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/5 hover:border-emerald-500/40 transition-all duration-300 backdrop-blur-sm flex flex-col justify-between overflow-hidden"
           >
             {/* Top ambient highlight line on hover */}
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-500/0 to-transparent group-hover:via-emerald-400/50 transition-all duration-500" />

@@ -47,8 +47,6 @@ export const Projects: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.4, delay: idx * 0.05 }}
-                whileHover={{ y: -6 }}
-                // Original card background/padding structure, hover border turned to emerald
                 className="group relative flex flex-col justify-between bg-neutral-900/80 border border-neutral-800/90 rounded-2xl p-6 hover:border-emerald-500/40 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/5 backdrop-blur-sm overflow-hidden"
               >
                 {/* Image Banner Section (from reference) */}

@@ -65,8 +65,8 @@ export const CodeAndSocials: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1, duration: 0.5 }}
-                whileHover={{ y: -6 }}
-                className="group relative min-h-[200px] bg-gradient-to-b from-neutral-900/90 to-neutral-900/40 border border-neutral-800/90 rounded-3xl p-8 text-left transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/5 hover:border-emerald-500/40 backdrop-blur-sm flex flex-col justify-between overflow-hidden"
+                className="group relative min-h-[200px] bg-gradient-to-b from-neutral-900/90 to-neutral-900/40 border border-neutral-800/90 rounded-3xl p-8 text-left transition-all 
+                duration-300 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/5 hover:border-emerald-500/40 backdrop-blur-sm flex flex-col justify-between overflow-hidden"
               >
                 {/* Top ambient highlight line on hover */}
                 <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-500/0 to-transparent group-hover:via-emerald-400/50 transition-all duration-500" />

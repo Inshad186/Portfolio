@@ -70,7 +70,6 @@ export const DeveloperIntro: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1, duration: 0.45 }}
-                whileHover={{ y: -6 }}
                 className="group relative bg-gradient-to-b from-neutral-900/90 to-neutral-900/40 border border-neutral-800/90 rounded-3xl p-7 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/5 hover:border-emerald-500/40 transition-all duration-300 backdrop-blur-sm overflow-hidden"
               >
                 {/* Top ambient highlight line on hover */}
