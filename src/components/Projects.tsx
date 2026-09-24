@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Info, Image as ImageIcon } from 'lucide-react';
+import { Info, Image as ImageIcon } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import { PROJECTS } from '../data/portfolioData';
 import type { Project } from '../types';
